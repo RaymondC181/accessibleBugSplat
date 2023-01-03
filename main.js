@@ -189,7 +189,10 @@ function initialize()
     bug14 = document.getElementById("bug14");
     bug15 = document.getElementById("bug15");
 
-
+    document.addEventListener('keyup', function(e){
+        if(e.keyCode == 13)
+          window.location.reload();
+      })
 }
 
 let arrayNonDefiant = ["No Please!","whyyyy", "Oww", "No more", "mercy!!", "please no", "AAAAAaa", "please stop", "gahhhh", "HELP"];
@@ -273,7 +276,6 @@ function shuffle(array) {
   }
 
 
-
-
+ 
 
 
