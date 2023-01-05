@@ -24,7 +24,7 @@ function check(x)
             log();
         }
         one = false; 
-        bug1.src ="img/squashed.png";
+        bug1.src ="img/squashed1.png";
     }
     if(x==2)
     {
@@ -33,7 +33,7 @@ function check(x)
             log();
         }
         two = false; 
-        bug2.src ="img/squashed.png";
+        bug2.src ="img/squashed2.png";
 
     }
     if(x==3)
@@ -43,7 +43,7 @@ function check(x)
             log();
         }
         three = false; 
-        bug3.src ="img/squashed.png";
+        bug3.src ="img/squashed3.png";
 
     }
     if(x==4)
@@ -53,7 +53,7 @@ function check(x)
             log();
         }
         four = false; 
-        bug4.src ="img/squashed.png";
+        bug4.src ="img/squashed4.png";
 
     }
     if(x==5)
@@ -63,7 +63,7 @@ function check(x)
             log();
         }
         five = false; 
-        bug5.src ="img/squashed.png";
+        bug5.src ="img/squashed5.png";
 
     }
     if(x==6)
@@ -73,7 +73,7 @@ function check(x)
             log();
         }
         six = false; 
-        bug6.src ="img/squashed.png";
+        bug6.src ="img/squashed6.png";
 
     }
     if(x==7)
@@ -83,7 +83,7 @@ function check(x)
             log();
         }
         seven = false; 
-        bug7.src ="img/squashed.png";
+        bug7.src ="img/squashed7.png";
 
     }
     if(x==8)
@@ -93,7 +93,7 @@ function check(x)
             log();
         }
         eight = false; 
-        bug8.src ="img/squashed.png";
+        bug8.src ="img/squashed8.png";
 
     }
     if(x==9)
@@ -103,7 +103,7 @@ function check(x)
             log();
         }
         nine = false; 
-        bug9.src ="img/squashed.png";
+        bug9.src ="img/squashed9.png";
 
     }
     if(x==10)
@@ -113,7 +113,7 @@ function check(x)
             log();
         }
         ten = false; 
-        bug10.src ="img/squashed.png";
+        bug10.src ="img/squashed10.png";
 
     }
     if(x==11)
@@ -123,7 +123,7 @@ function check(x)
             log();
         }
         eleven = false; 
-        bug11.src ="img/squashed.png";
+        bug11.src ="img/squashed11.png";
 
     }
     if(x==12)
@@ -133,7 +133,7 @@ function check(x)
             log();
         }
         twelve = false; 
-        bug12.src ="img/squashed.png";
+        bug12.src ="img/squashed12.png";
 
     }
     if(x==13)
@@ -143,7 +143,7 @@ function check(x)
             log();
         }
         thirteen = false; 
-        bug13.src ="img/squashed.png";
+        bug13.src ="img/squashed13.png";
 
     }
     if(x==14)
@@ -153,7 +153,7 @@ function check(x)
             log();
         }
         fourteen = false; 
-        bug14.src ="img/squashed.png";
+        bug14.src ="img/squashed14.png";
 
     }
 
@@ -164,7 +164,7 @@ function check(x)
             log();
         }
         fifteen = false; 
-        bug15.src ="img/squashed.png";
+        bug15.src ="img/squashed15.png";
 
     }
     
@@ -196,7 +196,7 @@ function initialize()
 }
 
 let arrayNonDefiant = ["No Please!","whyyyy", "Oww", "No more", "mercy!!", "please no", "AAAAAaa", "please stop", "gahhhh", "HELP"];
-let arrayDefiant = ["Haha", "it tickles", "whats the point?", "we ate all your food", "hehehe", "useless", "nice attempt"];
+let arrayDefiant = ["Haha", "it tickles", "whats the point?", "We still don't care", "hehehe", "useless", "Not working", "This is of no use!"];
 
 counter = 15; 
 function log()

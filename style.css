@@ -1,0 +1,22 @@
+#mother { visibility: hidden;}
+#motherbox{
+    text-align: center;
+}
+#border{
+    text-align: center;
+    padding: 10px
+}
+#heading1{
+    text-align: center;
+}
+#heading2{
+    text-align: center;
+}
+#enter{
+    text-align: center;
+}
+.whole{
+    border: solid black 85px;
+    height: 1300px;
+    background-color:white;
+}

@@ -6,29 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src = main.js></script>
-    <style>
-        #mother { visibility: hidden;}
-        #motherbox{
-            text-align: center;
-        }
-        #border{
-            text-align: center;
-            padding: 10px
-        }
-        #heading1{
-            text-align: center;
-        }
-        #heading2{
-            text-align: center;
-        }
-        #enter{
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body onload = "initialize();">
-    <h1 id = "heading1">Splatter the Bugs</h1>
+<div class = whole>
+    <h1 id = "heading1">Click the Bugs</h1>
 <div id = border>
     <img src = "img/bug1.png" width="100px" onclick = "check(1);" id = bug1 alt = "Bug 1">
     <img src = "img/bug2.png" width="100px" onclick = "check(2);" id = bug2 alt = "Bug 2">
@@ -50,12 +33,13 @@
     <br />
 </div>
 <div id = motherbox>
-    <img id = "mother" src = "img/mother.png" alt = "Mother Bug">
+    <img id = "mother" src = "img/mother.png" alt = "Mother Bug" width="200px">
 </div>
 <p id = enter>~Press ENTER to reset page~</p>
     <div id = heading2>
         <h2>Comments: </h2>
         <p id = log>--</p>
     </div>
+</div>
 </body>
 </html>
